@@ -1,0 +1,68 @@
+.calculator {
+    border-radius: 2rem;
+    background-color: rgb(112, 111, 111);
+    width:fit-content;
+    height:fit-content;
+    padding: 2rem;
+    margin: 0rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.teclas {
+    border: 0rem;
+    border-radius: 1rem;
+    background-color: #838386;
+    width: 4rem;
+    height: 3rem;
+    margin: 0px auto;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+}
+.containerTeclas {
+    border: 0.1rem solid rgb(34, 34, 37);
+    border-radius: 1rem;
+    width: 22rem;
+    height: 19rem;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    text-align: center;
+}
+.tablero {
+    border: 0.1rem solid rgb(34, 34, 37);
+    border-radius: 1rem;
+    background-color:rgb(248, 247, 246);
+    width: 22rem;
+    height: 6rem;
+    display: grid;
+    place-items: center;
+    margin: 0px auto;
+}
+
+.tablero span {
+    border-top: 1px solid orange;
+    height: 3rem;
+    width: 20rem;
+    text-align: right;
+    font-weight: bold;
+    font-size:xx-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.tablero input {
+    background-color:rgb(248, 247, 246);
+    height: 2rem;
+    width: 20rem;
+    border: 0px;
+    text-align: right;
+    font-weight: bold;
+    font-size:x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
